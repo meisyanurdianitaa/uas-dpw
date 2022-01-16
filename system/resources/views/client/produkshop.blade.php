@@ -48,9 +48,7 @@
                             </p>
 
                             <hr>
-                             <div class="sizes mt-5">
-                                <h6 class="text-uppercase">Size</h6> <label class="radio"> <input type="radio" name="size" value="37" checked> <span>37</span> </label> <label class="radio"> <input type="radio" name="size" value="38"> <span>38</span> </label> <label class="radio"> <input type="radio" name="size" value="39"> <span>39</span> </label> <label class="radio"> <input type="radio" name="size" value="40"> <span>40</span> </label> 
-                            </div>
+                            
                              <form action="{{url('cart')}}" method="get" >
                                 <input type="hidden" name="product-title" value="Activewear">
                             <div class="cart mt-4 align-items-center"> <button class="btn btn-danger text-uppercase mr-2 px-4">Add to cart</button> <i class="fa fa-heart text-muted"></i> <i class="fa fa-share-alt text-muted"></i> </div>

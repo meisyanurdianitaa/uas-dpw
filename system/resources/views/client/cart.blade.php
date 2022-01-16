@@ -53,20 +53,20 @@
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-xl-7 ftco-animate">
-        <form action="{{url('cart')}}" method="post" >
+        <form action="{{url('cart')}}" method="post" enctype="multipart/form-data">
             @csrf
               <h3 class="mb-4 billing-heading">Detail Pemesanan</h3>
               <div class="row align-items-end">
                 <div class="col-md-6">
                   <div class="form-group">
-                    <label for="firstname">Nama Produk</label>
-                    <input type="text" name="firtname" class="form-control" placeholder="">
+                    <label for="nama_produk">Nama Produk</label>
+                    <input type="text" name="nama_produk" class="form-control" placeholder="">
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="form-group">
-                    <label for="lastname">Quantity</label>
-                    <input type="text" name="lastname" class="form-control" placeholder="">
+                    <label for="quantity">Quantity</label>
+                    <input type="text" name="quantity" class="form-control" placeholder="">
                   </div>
                 </div>
                 <div class="w-100"></div>
